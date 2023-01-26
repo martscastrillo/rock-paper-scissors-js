@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--     https://www.youtube.com/watch?v=dcIuh7JaxWw -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Rock paper scissors</title>
+</head>
+
+<body>
+
+    <h1 class="h1">Piedra | Papel | Tijera</h1>
+    <div id="campo-batalla" class="campo-batalla">
+        <div id="img-ataque-jugador" class="caja-batala circle2">
+        </div>
+        <div class="caja-batala">
+            <p class="text-mensajes">VS</p>
+        </div>
+        <div id="img-ataque-pc" class="caja-batala circle2 ">
+        </div>
+    </div>
+    <div>
+        <p id="msj-batalla" class="text-mensajes"> </p>
+    </div>
+    <h2>Elije un ataque</h2>
+    <div class="ejercito">
+        <div class="circle"><img id="btn-piedra" class="btn-ataques btn-piedra" src="img/Piedra.png" alt=""></div>
+
+        <div class="circle"><img id="btn-papel" class="btn-ataques btn-papel" src="img/Papel.png" alt=""></div>
+        <div class="circle"><img id="btn-tijeras" class="btn-ataques btn-tijeras" src="img/Tijera.png" alt=""></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
