@@ -70,7 +70,6 @@ function battle(){
         msjBatalla.innerHTML = "Perdiste :(";
     };
     addImagenes();
-
 }
 function randomNumber(){
     let n = Math.floor(Math.random() * 3);
@@ -84,25 +83,18 @@ function addImagenes(){
             var inserta = `<img class="img-batalla" src=${imgJugador} alt="">`;
             imgAtaqueJugador.innerHTML = inserta;
         };
-        
         if(optionPc == imagenes[i].name){
             imgPc = imagenes[i].url;
             var inserta = `<img class="img-batalla" src=${imgPc} alt="">`;
             imgAtaquePc.innerHTML = inserta;
         };
-        
     };
-
-
-    campoBatalla.classList.remove('collapsed');
-    
+    campoBatalla.classList.remove('collapsed');  
 };
 
 
 btnPiedra.addEventListener('click', piedraPlayer);
 btnPapel.addEventListener('click', papelPlayer);
-
 btnTijeras.addEventListener('click', tijerasPlayer)
-
 
 window.addEventListener('load', start);
