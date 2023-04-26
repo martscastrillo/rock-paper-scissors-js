@@ -61,11 +61,11 @@ function battle(){
     if(optionPlayer == optionPc){
         msjBatalla.innerHTML = "Empate";
     }else if(optionPlayer == "Piedra" && optionPc == "Tijeras"){
-        msjBatalla.innerHTML = "Ganaste!";
+        msjBatalla.innerHTML = "¡Ganaste!";
     }else if(optionPlayer == "Papel" && optionPc == "Piedra"){
-        msjBatalla.innerHTML = "Ganaste!";
+        msjBatalla.innerHTML = "¡Ganaste!";
     }else if(optionPlayer == "Tijeras" && optionPc == "Papel"){
-        msjBatalla.innerHTML = "Ganaste!";
+        msjBatalla.innerHTML = "¡Ganaste!";
     }else{
         msjBatalla.innerHTML = "Perdiste :(";
     };
