@@ -14,25 +14,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="./ico.png"/>
+    <link rel="icon" href="./ico.png" />
     <title>Rock paper scissors</title>
 </head>
 
 <body>
 
     <h1 class="h1">Piedra | Papel | Tijera</h1>
-    <div id="campo-batalla" class="campo-batalla">
-        <div id="img-ataque-jugador" class="caja-batala circle2">
-        </div>
-        <div class="caja-batala">
-            <p class="text-mensajes">VS</p>
-        </div>
-        <div id="img-ataque-pc" class="caja-batala circle2 ">
-        </div>
-    </div>
-    <div>
-        <p id="msj-batalla" class="text-mensajes"> </p>
-    </div>
     <h2>Elije un ataque</h2>
     <div class="ejercito">
         <div class="circle"><img id="btn-piedra" class="btn-ataques btn-piedra" src="img/Piedra.png" alt=""></div>
@@ -40,6 +28,26 @@
         <div class="circle"><img id="btn-papel" class="btn-ataques btn-papel" src="img/Papel.png" alt=""></div>
         <div class="circle"><img id="btn-tijeras" class="btn-ataques btn-tijeras" src="img/Tijera.png" alt=""></div>
     </div>
+    <div class="divheight">
+        <div id="campo-batalla" class="campo-batalla">
+            <div id="img-ataque-jugador" class="caja-batala circle2">
+            </div>
+
+            <div class="caja-batala">
+                <p class="text-mensajes">VS</p>
+            </div>
+
+            <div id="img-ataque-pc" class="caja-batala circle2 ">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="divheight2">
+        <p id="msj-batalla" class="text-mensajes"> </p>
+    </div>
+
+
     <script src="./main.js"></script>
 </body>
 
