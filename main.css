@@ -36,6 +36,14 @@ body {
 		transform: translateY(0px);
 	}
 }
+.text-mensajes2 {
+	font-size: 21px;
+
+	color: #fe5f55;
+	@media all and (min-width: 768px) {
+		font-size: 21px;
+	}
+}
 
 .img-batalla {
 	width: 60px;
